@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 5.2.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-configuration-5.2.0.dtd">
+	
+	<hibernate-configuration>
+		<session-factory>
+			<!-- Cache niveau 2 EHCache -->
+        	<property name="cache.provider_class">org.hibernate.cache.EhCacheProvider</property>
+        
+        	<!-- Database connection settings -->
+			<property name="show-_sql">true</property>
+			<property name="hbm2dll.auto">update</property>
+			<property name="dialect">org.hibernate.dialect.MySQL5Dialect</property>
+			<property name="connection.url">jdbc:mysql://localhost:3306/hibernatecache</property>
+			<property name="connection.username">root</property>
+			<property name="connection.password">&lt;&gt;@lfred26</property>
+			<property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+		
+			<property name="cache.use_second_level_cache">true</property>
+			<property name="cache.region.factory_class">org.hibernate.cache.ehcache.EhCacheRegionFactory</property>
+			<mapping class="com.objis.cache.entity.Employee"/>
+		</session-factory>
+	</hibernate-configuration>
