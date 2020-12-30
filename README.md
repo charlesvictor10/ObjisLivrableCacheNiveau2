@@ -17,9 +17,9 @@ Pour l'installation merci de suivre les étapes suivantes:
 * Cliquez sur l’icône ’Java’ pour télécharger le JDK
 * Accepter la licence
 * De préférence choisir la version la plus récente (dernière sur la liste)
- * si votre machine est une 64 bit, choisir le jdk dont le nom a 'windows-X64' avant le '.exe'
- * si votre machine est une 32 bit, choisir le jdk dont le nom a 'windows-i586' avant le '.exe'
- * la version 32 bit fonctionne sur un Système Windows 32 bit ou 64 bit.
+  * si votre machine est une 64 bit, choisir le jdk dont le nom a 'windows-X64' avant le '.exe'
+  * si votre machine est une 32 bit, choisir le jdk dont le nom a 'windows-i586' avant le '.exe'
+  * la version 32 bit fonctionne sur un Système Windows 32 bit ou 64 bit.
 * Cliquez sur le bouton ’Enregistrer le fichier’. Le téléchargement commence
 * Double cliquez sur le fichier téléchargé. L’assistant d’installation du JDK se lance
 * Cliquez sur le bouton ’Next’ des fenêtre qui vont s'afficher
